@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/e/member/login/\" target=\"_self\" title=\"登录\" rel=\"nofollow\">请登录</a>&nbsp;|</li><li><a href=\"/e/member/register/index.php?tobind=0&groupid=1&button=下一步\" title=\"免费注册\" rel=\"nofollow\">免费注册</a></li>");
