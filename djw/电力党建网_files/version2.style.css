@@ -123,3 +123,9 @@ ul.nav-item-ul  li a{
 .bidu-list h6{
 	color: #e12a2b
 }
+.transition img{
+ width: 160px;
+}
+.nav-search .search-input2.clearfix {
+    padding-top: 12px;
+}
