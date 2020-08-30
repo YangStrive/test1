@@ -39,17 +39,17 @@
     align-items: center;
     overflow: hidden;
     flex-grow: 1;
-    padding: 3px 0;
+    padding: 5px 0;
 }
 h3.nav-h3 a{
     color: #ad0e0e;
     white-space: nowrap;
-    font: 18px '微软雅黑';
+    font: 20px '微软雅黑';
     font-weight: bold;
     margin-right: 10px;
     cursor:pointer;
 }
-h3.nav-h3:hover,ul.nav-item-ul li a:hover{
+h3.nav-h3 a:hover,ul.nav-item-ul li a:hover{
 	color: #de0a0a;
 }
 ul.nav-item-ul {
@@ -61,7 +61,7 @@ ul.nav-item-ul {
 }
 ul.nav-item-ul  li a{
     cursor:pointer;
-    font-size: 13px;
+    font-size: 15px;
     margin: 0 5px;
     white-space: nowrap;
 }
@@ -129,3 +129,162 @@ ul.nav-item-ul  li a{
 .nav-search .search-input2.clearfix {
     padding-top: 12px;
 }
+.kline-column-icon{
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: url(http://test.powerdj.org.cn/static/index/images/research-con-m3.png) no-repeat;
+    background-size: 100%;
+}
+.gw-write-n{
+
+}
+.table_right{
+    border:none;
+}
+.server-list ul li{
+    position: relative;
+    border-bottom: none;
+    line-height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.server-list ul li a{
+    margin-left: 30px;
+}
+.server-list ul li::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: url(../img/dang_active.png) no-repeat;
+    background-size: 25px 25px;
+    top: 7px;
+}
+.server-moudle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.server-moudle .moudle-main{
+    width: 125px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 21px 0 5px 0;
+}
+.server-moudle .moudle-main1{
+    background-color: rgba(245, 94, 107, .1);
+
+}
+.server-moudle .moudle-main2{
+    background-color: rgba(255, 210, 77, .1);
+    color: #FAD97D
+}
+.server-moudle .moudle-main3{
+    background-color: rgba(149, 142, 251, .1);
+    color: #958EFB;
+
+}
+.server-moudle .moudle-main4{
+    background-color:rgba(84, 216, 242, .1);
+    color: #77E3F9
+
+}
+.server-moudle .moudle-main1 p{
+    color: #F8848E;
+
+}
+.server-moudle .moudle-main2 p{
+    color: #FAD97D;
+    
+}
+.server-moudle .moudle-main3 p{
+    color: #958EFB;
+    
+}
+.server-moudle .moudle-main4 p{
+    color: #77E3F9;
+    
+}
+.server-moudle .moudle-main a{
+    display: block;
+    margin: auto;
+}
+.server-moudle .moudle-main a img{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+
+.server-moudle .moudle-main a p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.title-mod h3{
+}
+
+.channel-dwpd h3::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 23px;
+    height: 23px;
+    background: url(http://test.powerdj.org.cn/static/index/images/label-nameimg0.png) no-repeat;
+    background-size: 23px 23px;
+    top: 12px;
+    left: 10px;
+}
+
+.channel-dwpd h3 a,.channel-dlhy h3 a,.channel-fdpd h3 a,.channel-djpd h3 a{
+    margin-left: 40px;
+}
+.channel-dlhy h3::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 23px;
+    height: 23px;
+    background: url(http://test.powerdj.org.cn/static/index/images/label-nameimg3.png) no-repeat;
+    background-size: 23px 23px;
+    top: 12px;
+    left: 10px;
+}
+.channel-fdpd h3::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 23px;
+    height: 23px;
+    background: url(http://test.powerdj.org.cn/static/index/images/label-nameimg1.png) no-repeat;
+    background-size: 23px 23px;
+    top: 12px;
+    left: 10px;
+}
+.channel-djpd h3::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 23px;
+    height: 23px;
+    background: url(http://test.powerdj.org.cn/static/index/images/label-nameimg2.png) no-repeat;
+    background-size: 23px 23px;
+    top: 12px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
