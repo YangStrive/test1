@@ -276,15 +276,78 @@ ul.nav-item-ul  li a{
     top: 12px;
     left: 10px;
 }
+.head-logo{
+    width: 19190px;
+    margin: auto;
+    height: 240px;
 
+}
+.head-logo .clearfix{
+    height: 130px;
+    margin-top: 45px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head-logo .transition img{
+    width: 260px;
+    display: block;
+}
+.head-logo .dj-by {
+    width: 252px;
+}
+.head-logo .dj-by img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.head-logo .search-input2 div{
+    width:300px;
+    height: 40px;
+}
 
-
-
-
-
-
-
-
-
+.head-logo .search-input {
+    float: left;
+    width: 380px;
+}
+.head-logo.nav-search h2{
+    margin: 0;
+    margin-right: 30px;
+    width: auto;
+    height: auto;
+}
+.head-logo .search-input2 div input{
+    height: 40px;
+    line-height: 40px;
+}
+.head-logo.nav-search .search-input2.clearfix{
+    margin-top: 0;
+}
+.head-logo .search-input{
+    width: auto;
+    margin-left: 100px;
+}
+.head-logo .search-input2 button{
+    background: #df0b09;
+    width: 65px;
+    height: 42px;
+}
+.banner-img {
+    width: 1190px;
+    margin: auto;
+}
+.banner-img img {
+    width: 100%;
+    height: 199px;
+    display: block;
+}
+.nav-search.head-logo{
+    width: 1190px;
+    height: 240px;
+    margin: auto;
+    background: url(../img/banner_img.png) no-repeat;
+    background-size: cover;
+}
 
 
