@@ -1,6 +1,9 @@
 .nav {
-    background: #fff;
-    border-bottom: 1px dashed #d9d9d7;
+    background: url(http://test.powerdj.org.cn/static/index/images/bg-new.png) no-repeat;
+    background-size: 100% 100%;
+    background-position-y: 0px;
+    width: 100%;
+    height: 289px;
 }
 
 .nav-search {
@@ -337,15 +340,11 @@ ul.nav-item-ul li a {
 }
 
 .head-logo {
-    width: 19190px;
+    width: 1190px;
     margin: auto;
-    height: 240px;
-
 }
 
 .head-logo .clearfix {
-    height: 130px;
-    margin-top: 45px;
     margin-left: 40px;
     display: flex;
     justify-content: flex-start;
@@ -417,9 +416,8 @@ ul.nav-item-ul li a {
 
 .nav-search.head-logo {
     width: 1190px;
-    height: 240px;
     margin: auto;
-    background: url(../img/banner_img.png) no-repeat;
+/*    background: url(../img/banner_img.png) no-repeat;*/
     background-size: cover;
 }
 
