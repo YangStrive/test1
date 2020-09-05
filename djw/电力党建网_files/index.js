@@ -72,6 +72,11 @@ $(function() {
         $(this).parent().find("div").eq($(this).index()).removeClass('dn').siblings().addClass('dn');
 
     });
+    $(".xfg-link").hover(function() {
+        $(this).addClass("djxfg-active").siblings().removeClass("djxfg-active");
+        $(".djxf-xcg-tab>div").eq($(this).index()).removeClass('dn').siblings().addClass('dn');
+
+    });
     /**
      * 7*24小时
      */
