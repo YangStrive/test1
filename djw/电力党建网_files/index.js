@@ -66,7 +66,12 @@ $(function() {
         $(this).parent().find("div").eq($(this).index()).removeClass('dn').siblings().addClass('dn');
 
     });
+    $(".zxwj-main .title-mod h3").hover(function() {
+        $(this).addClass("acitve-sel-h3").siblings().removeClass("acitve-sel-h3");
+        $(".tab-main-zcwj>div").eq($(this).index()).removeClass('dn').siblings().addClass('dn');
+        $(this).parent().find("div").eq($(this).index()).removeClass('dn').siblings().addClass('dn');
 
+    });
     /**
      * 7*24小时
      */

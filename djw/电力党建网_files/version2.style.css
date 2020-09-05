@@ -64,7 +64,7 @@ ul.nav-item-ul li a {
 
 .title-mod h3 a {
     color: #de0a0a;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .title-mod h3 {
@@ -416,11 +416,20 @@ ul.nav-item-ul li a {
 
 .nav-search.head-logo {
     width: 1190px;
+    padding: 35px 0 20px 0;
     margin: auto;
-/*    background: url(../img/banner_img.png) no-repeat;*/
+    position: relative;
     background-size: cover;
 }
-
+.nav-search.head-logo .gcd-logo {
+    position: absolute;
+    left: -100px;
+    top: 38px;
+}
+.nav-search.head-logo .gcd-logo img {
+    display: block;
+    width: 80px;
+}
 .news-list li i {
     position: absolute;
     left: 0;
@@ -501,6 +510,10 @@ ul.nav-item-ul li a {
 
 .daodu .title-mod .daodu-current a {
     border-top: 2px solid #fdbb3e;
+    padding-left: 10px;
+}
+.daodu .title-mod .hygj-tab-title a {
+    padding-left: 10px;
 }
 
 .title-block {
@@ -959,4 +972,84 @@ ul.nav-item-ul li a {
 .new-lift-title{
     width: 1190px;
 
+}
+.link-friend .cf-panel {
+    width: 1190px;
+    margin: 30px auto;
+}
+.link-friend .cf-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+ .link-friend .cf-table tr {
+    height: 87px;
+    text-align: center;
+}
+.link-friend .cf-table tr td {
+    border-bottom: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+.link-friend .cf-table tr td:nth-child(6n){
+    border-right: 0;
+}
+.link-friend a {
+    color: #333;
+    text-decoration: none;
+}
+.link-friend img {
+    border: none;
+    vertical-align: middle;
+}
+.dw-modle-main {
+    height: 50px;
+    width: 880px;
+    background: url(http://test.powerdj.org.cn/static/index/images/tz-heng.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 5px;
+}
+.dw-modle-main h3{
+    display: flex;
+    align-items: center;
+}
+.dw-modle-main h3 a{
+    font-size: 26px;
+    font-weight: normal;
+    color: #fff;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.dw-modle-main h3 img{
+    margin-left: 10px;
+    width: 35px;
+}
+.zxwj-main .title-mod h3{
+    border-top:2px solid #de0a0b;
+}
+.zxwj-main .title-mod .acitve-sel-h3{
+    border-top: 2px solid #fdbb3e;
+}
+.zxwj-h3-no1{
+    position: relative;
+}
+.zxwj-h3-no1:after{
+    display: block;
+    content: '';
+    position: absolute;
+    right: -22px;
+    top: 1px;
+    display: inline-block;
+    margin: 15px 21px 0;
+    font-size: 12px;
+    color: #dfdcdc;
+    width: 1px;
+    height: 15px;
+    background: #dfdcdc;
+}
+.zxwj-main .title-mod .zxwj-h3-no1{
+    padding-right: 10px;
+}
+.zxwj-main .title-mod .zxwj-h3-no2{
+    padding-left: 10px;
 }
