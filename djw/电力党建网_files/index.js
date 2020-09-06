@@ -30,7 +30,7 @@ $(function() {
         autoPage: true,
         effect: "topLoop",
         autoPlay: true,
-        vis: 3
+        vis: 4
     });
 
 
