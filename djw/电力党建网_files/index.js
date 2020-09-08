@@ -24,6 +24,18 @@ $(function() {
     /**
      * 推荐观点
      */
+    $(".announ-cements").slide({
+        titCell: "",
+        mainCell: ".announ-main",
+        autoPage: true,
+        effect: "topLoop",
+        autoPlay: true,
+        vis: 6
+    });
+
+    /**
+     * 通知公告
+     */
     $(".picScroll-top").slide({
         titCell: ".hd ul",
         mainCell: ".bd ul",
@@ -32,7 +44,6 @@ $(function() {
         autoPlay: true,
         vis: 4
     });
-
 
     /**
      * 时间轴滚动条

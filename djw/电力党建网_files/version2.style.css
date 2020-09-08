@@ -1233,9 +1233,32 @@ ul.nav-item-ul li a {
 .picScroll-top{
     height: 400px;
 }
-
-
-
+.page-bottom{width: 100%;min-width: 1400px;min-height: 300px;background: #323232;}
+.page-bottom-con{padding-top:38px;width: 1400px;margin:38px auto 18px auto;color: #fff;letter-spacing: 1px;}
+.page-bottom-c{}
+.page-bottom-text{font-size: 16px;font-weight: bold;}
+.page-bottom-text a{font-size: 16px;font-weight: bold;color: #fff;}
+.page-bottom-normal{font-size:14px;}
+.page-bottom-normal p{margin-top: 8px;}
+.page-bottom-con2{padding-top:38px;width: 1400px;margin:38px auto 18px auto;color: #fff;letter-spacing: 1px;}
+.page-bottom-bei{width: 1400px;margin:38px auto 0;padding-bottom: 30px; font-size: 14px;color: #fff;text-align: center;line-height: 28px;letter-spacing: 1px;}
+.bei{background: url(http://test.powerdj.org.cn/static/index/images/bei.png) no-repeat;padding-left: 28px;}
+.page-bottom-bei a{color: #fff;}
+.ad-inline .announ-main a {
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 8px;
+    white-space: nowrap;
+    color: #d71919;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.announ-main {
+    padding: 0 10px ;
+}
+.ad-inline .announ-main a:first-child{
+    margin-top: 0;
+}
 
 
 
