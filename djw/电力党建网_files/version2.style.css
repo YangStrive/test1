@@ -1259,7 +1259,24 @@ ul.nav-item-ul li a {
 .ad-inline .announ-main a:first-child{
     margin-top: 0;
 }
-
-
+.page-bottom-bei{
+    position: relative;
+}
+.dj-ewm{
+    position: absolute;
+    left: 0px;
+    top: -20px;
+}
+.dj-ewm img{
+    display: block;
+    width: 103px;
+    height: 103px;
+    margin: auto;
+}
+.dj-ewm p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
 
 
