@@ -1233,8 +1233,8 @@ ul.nav-item-ul li a {
 .picScroll-top{
     height: 400px;
 }
-.page-bottom{width: 100%;min-width: 1400px;min-height: 300px;background: #323232;}
-.page-bottom-con{padding-top:38px;width: 1400px;margin:38px auto 18px auto;color: #fff;letter-spacing: 1px;}
+.page-bottom{width: 100%;min-width: 1190px;min-height: 300px;background: #323232;}
+.page-bottom-con{padding-top:38px;width: 1190px;margin:38px auto 18px auto;color: #fff;letter-spacing: 1px;}
 .page-bottom-c{}
 .page-bottom-text{font-size: 16px;font-weight: bold;}
 .page-bottom-text a{font-size: 16px;font-weight: bold;color: #fff;}
@@ -1264,7 +1264,7 @@ ul.nav-item-ul li a {
 }
 .dj-ewm{
     position: absolute;
-    left: 0px;
+    left: 100px;
     top: -20px;
 }
 .dj-ewm img{
